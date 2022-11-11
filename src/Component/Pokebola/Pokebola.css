@@ -1,0 +1,92 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo img{
+    margin-top: 5%;
+    position: absolute;
+    width: 22%;
+    height: 100px;
+    z-index: 100;
+   
+}
+.marco{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.pokebola{
+    
+    width: 50%;
+    height: 420px;
+   
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+ 
+}
+.boton{
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 100;
+}
+.imagen{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    z-index: 90;
+    opacity: 0;
+    border-radius: 50%;
+}
+.malla{
+    position:absolute;
+    width: 400px;
+    height: 200px;
+    
+    z-index: 2;
+    opacity: 1;
+   
+}
+.malla img{
+    width: 400px;
+    height: 200px;
+    border-radius: 50px 50px 50px 50px;
+}
+.rojo{
+    top: 20px;
+    width: 60%;
+    height: 200px;
+    -moz-border-radius: 100px 100px 0 0;
+     -webkit-border-radius: 100px 100px 0 0;
+     border-radius: 300px 300px 0 0;
+    background-color: brown;
+    border: 0.5rem solid;
+    z-index: 10;
+}
+.blanco{
+    top: 20px;
+    width: 60%;
+    height: 200px;
+    -moz-border-radius: 100px 100px 0 0;
+     -webkit-border-radius: 100px 100px 0 0;
+     border-radius: 0px 0px 300px 300px;
+    background-color: white;
+    border: 0.5rem solid;
+    z-index: 10;
+}
+

@@ -1,0 +1,40 @@
+.contenido{
+    position: absolute;
+    margin-left: 880px;
+    width: 400px;
+    height:  64%;
+    background-color: black;
+    border-radius: 10px;
+}
+.historia{
+    margin: 5px;
+    width: 400px;
+    height:  200px;
+    background-color:aqua;
+    border-radius: 20px;
+    border: 0.5rem solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+.historia p{
+    padding: 20px;
+    color: #472D2D;
+}
+.historia h1{
+   color: #E97777;
+}
+.stadisticas{
+    margin: 5px;
+    width: 400px;
+    height:  200px;
+    background-color:aqua;
+    border-radius: 20px;
+      border: 0.5rem solid;
+      display: flex;
+      flex-direction: column;
+      
+}
+.stadisticas div h1{
+    color: #E97777;
+}
